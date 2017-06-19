@@ -1,0 +1,15 @@
+module_name/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+module_name/cli.py,sha256=eDIRvdZTP7RKMWhVCF-ay70gEjGCqfZPG-_Z7AKfzC0,616
+module_name/resolve.py,sha256=RP5Ipf9JvtQDnQ7Y4J1vGh4-OolqlKmYYnOJfgOQgv4,1538
+module_name-0.5.1.dist-info/DESCRIPTION.rst,sha256=v09ZC74WfWVtPckb0mbNN7Zmz-Y1dLD_K9R_xNH8Weg,1003
+module_name-0.5.1.dist-info/METADATA,sha256=EDlNV9JCOe1dEH3JvX_K6otd7jHgPOAbHAUJOCMumG0,1759
+module_name-0.5.1.dist-info/RECORD,,
+module_name-0.5.1.dist-info/WHEEL,sha256=9Z5Xm-eel1bTS7e6ogYiKz0zmPEqDwIypurdHN1hR40,116
+module_name-0.5.1.dist-info/entry_points.txt,sha256=dFl6LViaiMJSY9kjoiEq8qoqQkr3Y9fBaZLtzaQyqbE,57
+module_name-0.5.1.dist-info/metadata.json,sha256=_B-DtsOiWuJ4G7shR017JnL4gHg0fl3qdknCTyJ2_iI,994
+module_name-0.5.1.dist-info/top_level.txt,sha256=WykHMGPgW02kHawoX7uDtYPFyhxVPfl9oby4QWbiQ7Q,12
+../../bin/py-module-name.exe,sha256=f7AfV8aUrCyeXpNQ5q9rs903WtMr2wvHysjdImR9u60,89433
+module_name-0.5.1.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+module_name/cli.pyc,,
+module_name/__init__.pyc,,
+module_name/resolve.pyc,,

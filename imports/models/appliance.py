@@ -1,0 +1,66 @@
+"""
+__author__      = Umair Ansari
+__copyright__   = Copyright 2007, Cielo WiGle
+__date__        = 09, May 2017
+__version__     = 1.0.0"""
+
+
+class Appliance:
+
+    def __init__(self):
+        pass
+
+    APPLIANCE_TABLE = 'appliance'
+
+    BTC_CLOSING_ZERO_REQ = "BTClosingZeroReq"
+    CONSTRUCTED_LENGTH = "constructedLength"
+    BASE_STRING_FORMAT = "base_signal_format"
+    BT_HIGH_THRESHOLD = "BTHighThreshold"
+    BT_STRING_LENGTH = "BTStringLength"
+    IS_POWER_IGNORED = "is_power_ignore"
+    MULTI_WAVE_DELAY = "multiwave_delay"
+    POWER_THRESHOLD = "power_threshold"
+    BT_START_INDEX = "BTStartIndex"
+    APPLIANCE_TYPE = "appliance_type"
+    MANUFACTURE_ID = "manufacturer_id"
+    OPERATION_TYPE = "operation_type"
+    HEADER_LENGTH = "header_length"
+    SIGNAL_LENGTH = "signal_length"
+    NOT_SUPPORTED = "not_supported"
+    START_PATTERN = "start_pattern"
+    REPEAT_STATUS = "repeat_status"
+    MODEL_NUMBER = "model_number"
+    APPLIANCE_ID = "appliance_id"
+    REPEAT_DELAY = "repeat_delay"
+    ZERO_TIMING = "zero_timing"
+    BASESTRING = "basestring"
+    CARRY_TYPE = "carry_type"
+    MAX_SIGNAL = "max_signal"
+    MIN_SIGNAL = "min_signal"
+    READ_DELAY = "read_delay"
+    FREQUENCY = "frequency"
+    LED_DELAY = "led_delay"
+    ON_TIMING = "one_timing"
+    CHECKSUM = "checksum"
+    IS_FAREN = "is_faren"
+    INVENTED = "inverted"
+    MAX_PW = "max_pw"
+    MIN_PW = "min_pw"
+    DELTA = "delta"
+    IS_D1 = "isd1"
+    IS_D2 = "isd2"
+    SWING = "swing"
+    TEMP = "temp"
+    MODE = "mode"
+    NAME = "name"
+    CZ1 = "CZ1"
+    CZ2 = "CZ2"
+    CZ3 = "CZ3"
+    FAN = "fan"
+    PVR = "pvr"
+    SX = "sx"
+    SY = "sy"
+    SZ = "sz"
+    X = "X"
+    Y = "Y"
+    Z = "Z"

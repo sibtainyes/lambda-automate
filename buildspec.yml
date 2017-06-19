@@ -1,0 +1,14 @@
+  
+version: 0.1
+phases:
+  install:
+    commands:
+      - mkdir rest_um_signin && cp rest_um_signin.py rest_um_signin
+      - echo rest_um_signin | xargs -n 1 cp -R util lib imports
+      - echo Trying to package...
+      - aws cloudformation package --template-file samTemplate.yaml --s3-bucket serverlessbucket10 
+                                   --output-template-file NewSamTemplate.yaml
+artifacts:
+  type: zip
+  files:
+    - NewSamTemplate.yaml
