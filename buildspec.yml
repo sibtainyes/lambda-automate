@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       - mkdir rest_um_signin && cp rest_um_signin.py rest_um_signin
-      - mkdir rest_um_signup && cp rest_um_signin.py rest_um_signup
+      - mkdir rest_um_signup && cp rest_um_signup.py rest_um_signup
       - echo rest_um_signin rest_um_signup | xargs -n 1 cp -R util lib imports
       - echo Trying to package...
       - aws cloudformation package --template-file samTemplate.yaml --s3-bucket serverlessbucket10 
