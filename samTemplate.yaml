@@ -9,3 +9,10 @@ Resources:
       Handler: rest_um_signin.lambda_handler
       Runtime: python2.7
       CodeUri: rest_um_signin/
+   SignUpFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: signup_serverless
+      Handler: rest_um_signup.lambda_handler
+      Runtime: python2.7
+      CodeUri: rest_um_signup/
