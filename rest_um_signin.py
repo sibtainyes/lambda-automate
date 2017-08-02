@@ -23,6 +23,7 @@ __date__        = 25, April 2017
 __version__     = 1.0.0
 """
 
+# This comment is to test automation
 
 def lambda_handler(event, context):
     """
